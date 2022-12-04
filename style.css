@@ -34,7 +34,7 @@ h6 {
 }
 
 .h1, h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 5rem;
   line-height: 40px;
   font-weight: 600;
@@ -60,15 +60,15 @@ h6 {
 p, li {
   margin-left: 5.4vw;
   margin-right: 5.4vw;
-	margin-top: 50px;
+	margin-top: 2px;
+  margin-bottom: 60px;
   letter-spacing: 0.3px;
   font-size: 25px;
-  line-height: 1.5;
+  line-height: 1.7;
   }
 
 .container {
 	padding-right: 10vw;
-	padding-left: 10vw;
   padding-top: 5vw;
 }
 
@@ -101,8 +101,8 @@ p, li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding-right: 6vw;
-	padding-left: 2vw;
+  padding-right: 7vw;
+	padding-left: 3vw;
   grid-gap: 30px;
  }
 
@@ -119,3 +119,8 @@ p, li {
   font-weight: bold;
   padding-left: 5rem;
  }
+
+ img:hover {
+  transition-duration: 500ms;
+  opacity: 0.5;
+}
